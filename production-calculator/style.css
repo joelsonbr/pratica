@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.input-panel,
+.result-panel {
+    background: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+    width: 250px
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+}
